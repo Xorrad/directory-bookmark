@@ -128,8 +128,9 @@ void LoadBookmarks() {
     }
     std::string bookmark;
     std::string path;
-    while(file >> bookmark >> path) {
+    while(getline(file, bookmark, ' ') && getline(file, path, '\n')) {
         BOOKMARKS[bookmark] = path;
+        printf("%s    %s\n", bookmark.c_str(), path.c_str());
     }
     file.close();
 }
@@ -161,7 +162,7 @@ void DisplayHelp() {
     printf("Note that only Ubuntu (with nautilus) is supported as of now.\n\n");
     printf("Create and delete bookmarks pointing to directory.\n\n");
     printf("  -a, --add   add a new bookmark\n");
-    printf("  -d, --delete   delete a new bookmark, if it exists\n");
+    printf("  -d, --delete   delete a bookmark, if it exists\n");
     printf("  -l, --list   list all saved bookmarks\n");
     printf("  -h, --help   display this help and exit\n\n");
     printf("Official repository: <https://github.com/Xorrad/directory-bookmark/>\n");

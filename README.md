@@ -20,7 +20,12 @@ git clone https://github.com/Xorrad/directory-bookmark.git && cd directory-bookm
 
 ```
 Usage: dbm [OPTION]... BOOKMARK...
-Open, create and delete directory bookmarks.
+       dbm <TEXT>
+
+Open a directory in the file explorer using a bookmark.
+Note that only Ubuntu (with nautilus) is supported as of now.
+
+Create and delete bookmarks pointing to directory.
 
   -a, --add   add a new bookmark
   -d, --delete   delete a new bookmark, if it exists

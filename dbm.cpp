@@ -155,8 +155,11 @@ void OpenBookmark(std::string name) {
 }
 
 void DisplayHelp() {
-    printf("Usage: dbm [OPTION]... BOOKMARK...\n");
-    printf("Open, create and delete directory bookmarks.\n\n");
+    printf("Usage: dbm [OPTION]... TEXT...\n");
+    printf("       dbm [TEXT]\n\n");
+    printf("Open a directory in the file explorer using a bookmark.\n");
+    printf("Note that only Ubuntu (with nautilus) is supported as of now.\n\n");
+    printf("Create and delete bookmarks pointing to directory.\n\n");
     printf("  -a, --add   add a new bookmark\n");
     printf("  -d, --delete   delete a new bookmark, if it exists\n");
     printf("  -l, --list   list all saved bookmarks\n");

@@ -130,7 +130,6 @@ void LoadBookmarks() {
     std::string path;
     while(getline(file, bookmark, ' ') && getline(file, path, '\n')) {
         BOOKMARKS[bookmark] = path;
-        printf("%s    %s\n", bookmark.c_str(), path.c_str());
     }
     file.close();
 }
@@ -143,7 +142,8 @@ void SaveBookmarks() {
         exit(1);
     }
     for(auto [name, path] : BOOKMARKS) {
-        file << name << " \"" << path << "\"" << std::endl;
+        if(path[0] != '\"') path = "\"" + path + "\"";
+        file << name << " " << path << std::endl;
     }
     file.close();
 }

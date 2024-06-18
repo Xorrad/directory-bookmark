@@ -5,7 +5,7 @@ A utility tool to bookmark directories (only works for linux) and open those dir
 ## Installation
 
 ```
-git clone https://github.com/Xorrad/directory-bookmark.git
+git clone https://github.com/Xorrad/directory-bookmark.git && cd directory-bookmark
 ```
 ```
 make

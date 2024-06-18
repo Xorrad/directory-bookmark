@@ -8,12 +8,12 @@ A utility tool to bookmark directories (only works for Ubuntu) and open those di
 git clone https://github.com/Xorrad/directory-bookmark.git
 cd directory-bookmark
 make
-sudo mv ./bin/dbm /usr/bin/
+sudo mv ./bin/dbm /usr/bin/dbm
 ```
 
 Or in one command:
 ```
-git clone https://github.com/Xorrad/directory-bookmark.git && cd directory-bookmark && make && sudo mv ./bin/dbm /usr/bin/
+git clone https://github.com/Xorrad/directory-bookmark.git && cd directory-bookmark && make && sudo mv ./bin/dbm /usr/bin/dbm
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Note that only Ubuntu (with nautilus) is supported as of now.
 Create and delete bookmarks pointing to directory.
 
   -a, --add   add a new bookmark
-  -d, --delete   delete a new bookmark, if it exists
+  -d, --delete   delete a bookmark, if it exists
   -l, --list   list all saved bookmarks
   -h, --help   display this help and exit
 ```

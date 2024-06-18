@@ -5,13 +5,15 @@ A utility tool to bookmark directories (only works for linux) and open those dir
 ## Installation
 
 ```
-git clone https://github.com/Xorrad/directory-bookmark.git && cd directory-bookmark
-```
-```
+git clone https://github.com/Xorrad/directory-bookmark.git
+cd directory-bookmark
 make
-```
-```
 sudo mv ./bin/dbm /usr/bin/
+```
+
+Or in one command:
+```
+git clone https://github.com/Xorrad/directory-bookmark.git && cd directory-bookmark && make && sudo mv ./bin/dbm /usr/bin/
 ```
 
 ## Usage

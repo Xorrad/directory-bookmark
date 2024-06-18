@@ -157,9 +157,9 @@ void OpenBookmark(std::string name) {
 void DisplayHelp() {
     printf("Usage: dbm [OPTION]... BOOKMARK...\n");
     printf("Open, create and delete directory bookmarks.\n\n");
-    printf("  -a, --add\tadd a new bookmark\n");
-    printf("  -d, --delete\tdelete a new bookmark, if it exists\n");
-    printf("  -l, --list\tlist all saved bookmarks\n");
-    printf("  -h, --help\tdisplay this help and exit\n\n");
+    printf("  -a, --add   add a new bookmark\n");
+    printf("  -d, --delete   delete a new bookmark, if it exists\n");
+    printf("  -l, --list   list all saved bookmarks\n");
+    printf("  -h, --help   display this help and exit\n\n");
     printf("Official repository: <https://github.com/Xorrad/directory-bookmark/>\n");
 }

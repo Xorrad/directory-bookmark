@@ -1,6 +1,6 @@
 # Directory Bookmark
 
-A utility tool to bookmark directories (only works for linux) and open those directories in the file explorer.
+A utility tool to bookmark directories (only works for Ubuntu) and open those directories in the file explorer.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 /****************************************************************************
 *                                                                           *
-*   DBM : a utility tool to bookmark directories (in linux).                *
+*   DBM : a utility tool to bookmark directories (only Ubuntu).             *
 *                                                                           *
 *   Made by Xorrad <monsieurs.aymeric@gmail.com>                            *
 *   This code is licensed under MIT license (see LICENSE for details)       *
